@@ -1,0 +1,29 @@
+{
+  "name": "trixchat",
+  "version": "0.0.1",
+  "description": "chat platform with Node.js and socket.io Edit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fagnersilva/trixchat.git"
+  },
+  "author": "Fagner Silva <fagnerluis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fagnersilva/trixchat/issues"
+  },
+  "homepage": "https://github.com/fagnersilva/trixchat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-hbs": "^1.0.4",
+    "express-session": "^1.15.5",
+    "express-validator": "^4.1.1",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.10",
+    "morgan": "^1.8.2"
+  }
+}
