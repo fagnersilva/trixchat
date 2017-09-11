@@ -1,3 +1,5 @@
 module.exports = (req, res) => {
-    res.send('Trix Technology')
+    return res.render('main/index', {
+        title: 'TRIXChat - Admin'
+    })
 }
